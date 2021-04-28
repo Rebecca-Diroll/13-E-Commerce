@@ -27,11 +27,17 @@ router.get('/:id', (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-  // find a single tag by its `id`
-  // be sure to include its associated Product data
 });
 
 router.post('/', (req, res) => {
+  try {
+    const tagData = await Tag.create({
+      id: req.body.id,
+    })
+    res.status(200).json(tagData);
+  }catch (err) {
+    res.status(400).json(err);
+  }
   // create a new tag
 });
 
