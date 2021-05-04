@@ -29,5 +29,5 @@ module.exports = {
   Product,
   Category,
   Tag,
-  ProductTag,
+  ProductTag
 };
