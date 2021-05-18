@@ -1,6 +1,6 @@
 # 13-E-Commerce
 
-[![License: MIT](https://img.shields.io/badge/Licens-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## User Story
 You have an e-commerce website and you need to keep track of inventory. This is the app for you!
